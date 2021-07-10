@@ -1,5 +1,6 @@
-# Para todos os arquivos nomeados teste
-teste*
 *
 !/**/
 !*.*
+
+# Para todos os arquivos nomeados teste
+teste.*
