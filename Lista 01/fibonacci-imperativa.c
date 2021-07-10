@@ -1,10 +1,9 @@
 // 1) Faça um programa que exibe na tela os elementos de uma série de fibonacci de forma imperativa e recursiva, depois calcule a complexidade de cada algoritmo.
 #include <stdio.h>
 
+
 int Fibonacci(int n)
 {
-
-
     if(n <= 2)
     {
         return 1;
@@ -32,7 +31,7 @@ int main(){
 
     int n;
 
-    printf("Digite um numero: ");
+    printf("Digite a quantidade de numeros da série: ");
 
     scanf("%d", &n);
 
