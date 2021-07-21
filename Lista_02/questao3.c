@@ -81,7 +81,8 @@ bool inserirProduto(no **lista)
     aux->prox = *lista;
     aux->ant = NULL;
 
-    if(*lista != NULL){
+    if (*lista != NULL)
+    {
         (*lista)->ant = aux;
     }
     *lista = aux;
@@ -272,9 +273,8 @@ bool prodDisponivel(no *lista, int cod, int qtd)
     return (disp - qtd) >= 0;
 }
 
-
 //remover nó da lista;
-no *removerNo(no *lista, no* No)
+no *removerNo(no *lista, no *No)
 {
     no *aux = lista;
     printf("entrou no remover no\n");
@@ -296,29 +296,30 @@ no *removerNo(no *lista, no* No)
     if (aux->prox != NULL)
     {
         printf("entrou no if 2\n");
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+
         aux->prox->ant = aux->ant;
     }
 
-    free(aux); 
+    free(aux);
 
     return lista;
 }
 
-no *remove_item(no *lista, no* No)
+no *remove_item(no *lista, no *No)
 {
     printf("lista: %x, No: %x", lista, No);
     no *atual = lista;
-    
+
     while (atual != NULL && atual != No)
     {
         printf("Tá no while\n");
-       
+
         atual = atual->prox;
     }
     printf("atual: %x, No: %x", atual, No);
 
-    if (atual == NULL){
+    if (atual == NULL)
+    {
         printf("atual == NULL\n");
 
         return lista;
@@ -333,7 +334,7 @@ no *remove_item(no *lista, no* No)
     {
         //printf("else do lista == atual\n");
         atual->ant->prox = atual->prox;
-        
+
         printf("saindo\n");
     }
 
@@ -343,7 +344,6 @@ no *remove_item(no *lista, no* No)
 
         atual->prox->ant = atual->ant;
         printf("saindo\n");
-
     }
 
     printf("chegou no free\n");
@@ -351,7 +351,6 @@ no *remove_item(no *lista, no* No)
     printf("Deu free\n");
     return lista;
 }
-
 
 //TODO Retirar produto
 void removerProduto(no **lista)
@@ -378,36 +377,38 @@ void removerProduto(no **lista)
         }
         else
         {
-            no *antigo = acharAntigo(*lista, codigo);
-
-            int sobra = antigo->dados.quantidade - qtd;
-
-            if (sobra > 0)
+            while(qtd > 0)
             {
-                //printf("entrou em sobra > 0\n");
-                antigo->dados.quantidade = sobra;
+                no *antigo = acharAntigo(*lista, codigo);
 
-                return;
-            }
-            else if (sobra == 0)
-            {
-                printf("entrou em sobra == 0\n");
-                *lista = remove_item(*lista, antigo);
-                //tem que remover aqui ó
-            }
-            else
-            {
-                printf("entrou em sobra <= 0\n");
-                *lista = remove_item(*lista, antigo);
+                int sobra = antigo->dados.quantidade - qtd;
 
-                //tem que remover aqui ó
-                qtd = sobra * -1;
+                if (sobra > 0)
+                {
+                    //printf("entrou em sobra > 0\n");
+                    antigo->dados.quantidade = sobra;
+                    break;
+                    return;
+                }
+                else if (sobra == 0)
+                {
+                    printf("entrou em sobra == 0\n");
+                    *lista = remove_item(*lista, antigo);
+                    break;
+                    return;
+                    //tem que remover aqui ó
+                }
+                else
+                {
+                    printf("entrou em sobra <= 0\n");
+                    *lista = remove_item(*lista, antigo);
+
+                    //tem que remover aqui ó
+                    qtd = sobra * -1;
+                }
             }
         }
-
-        
     }
-    
 }
 
 int main()
