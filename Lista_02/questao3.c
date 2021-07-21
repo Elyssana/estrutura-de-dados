@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <string.h>
 
 typedef struct data
 {
@@ -29,7 +30,7 @@ typedef struct noLista
     struct noLista *prox;
 } no;
 
-//TODO cria lista
+// cria Nó da lista
 bool criar(no **lista)
 {
 
@@ -48,12 +49,10 @@ bool criar(no **lista)
     }
 }
 
-//TODO inserir produto
-bool inserir(no **lista)
+// inserir produto
+bool inserirProduto(no **lista)
 {
     printf("\n****insira um produto****\n");
-
-    //printf("digite: \nCódigo\n Descrição\n Marca\n Validade(apenas numeros)\n Quantidade\n");
 
     no *aux;
 
@@ -63,13 +62,13 @@ bool inserir(no **lista)
     printf("Digite o código do produto:\n");
     fscanf(stdin, "%d", &aux->dados.cod);
     getchar();
-
+    /* 
     printf("Digite a descrição do produto:\n");
     fgets(aux->dados.descricao, 30, stdin);
 
     printf("Digite o marca do produto:\n");
     fgets(aux->dados.marca, 30, stdin);
-
+ */
     printf("Digite a validade do produto (apenas numeros):\n");
 
     fscanf(stdin, "%2d", &aux->dados.data_validade.dia);
@@ -84,7 +83,7 @@ bool inserir(no **lista)
     *lista = aux;
 }
 
-//TODO imprime produto
+// imprime produto
 void imprimirProduto(no *lista)
 {
 
@@ -95,8 +94,8 @@ void imprimirProduto(no *lista)
     else
     {
         printf("código: %d\n", (lista)->dados.cod);
-        printf("descricao : %s", (lista)->dados.descricao);
-        printf("marca: %s", (lista)->dados.marca);
+        /* printf("descricao : %s", (lista)->dados.descricao);
+         printf("marca: %s", (lista)->dados.marca);*/
         printf("data_validade: %d/%d/%d\n", (lista)->dados.data_validade.dia,
                (lista)->dados.data_validade.mes,
                (lista)->dados.data_validade.ano);
@@ -105,10 +104,9 @@ void imprimirProduto(no *lista)
     }
 }
 
-//TODO listar estoque
+// imprime lista
 void listar(no *lista)
 {
-    printf("\n****Listando estoque****\n");
 
     if (lista == NULL)
     {
@@ -125,16 +123,65 @@ void listar(no *lista)
     }
 }
 
-//TODO Consultar
+// busca ocorrencias do item
+no *buscarItem(no *lista, int cod)
+{
+    no *l2 = NULL;
+
+    while (lista != NULL)
+    {
+
+        if (lista->dados.cod == cod)
+        {
+            no *aux;
+            criar(&aux);
+
+            aux->dados.cod = lista->dados.cod;
+            aux->dados.data_validade = lista->dados.data_validade;
+            strcpy(aux->dados.descricao, lista->dados.descricao);
+            strcpy(aux->dados.marca, lista->dados.marca);
+            aux->dados.quantidade = lista->dados.quantidade;
+            aux->prox = l2;
+            aux->ant = NULL;
+            l2 = aux;
+        }
+
+        lista = lista->prox;
+    }
+
+    return l2;
+}
+
+//verica quandidade de produtos na lista
+int contarItem(no *lista)
+{
+    if (lista == NULL)
+    {
+        return NULL;
+    }
+    else
+    {
+        int qtd = 0;
+
+        while (lista != NULL)
+        {
+            qtd += lista->dados.quantidade;
+
+            lista = lista->prox;
+        }
+
+        return qtd;
+    }
+}
+
+// Consultar
 void consultar(no *lista)
 {
     int codigo, qtd = 0;
-    //char desc[30];
 
     printf("\n\ndigite o código do produto a ser consultado:\n");
 
     fscanf(stdin, "%d", &codigo);
-    //getchar();
 
     if (lista == NULL)
     {
@@ -142,39 +189,40 @@ void consultar(no *lista)
     }
     else
     {
-        while (lista != NULL)
+        no *lista_item = buscarItem(lista, codigo);
+
+        if (lista_item != NULL)
         {
-            if (lista->dados.cod == codigo)
-            {
-
-                imprimirProduto(lista);
-                qtd += lista->dados.quantidade;
-            }
-            lista = lista->prox;
+            listar(lista_item);
+            printf("Quantidade total do produto em estoque: %d\n", contarItem(lista_item));
         }
-
-        printf("\nQuantidade total do produto em estoque: %d\n\n", qtd);
+        else
+        {
+            printf("Produto não disponível no estoque!\n");
+        }
     }
     return;
 }
 
-no *acharAntigo(no *lista, int codigo) //acha o registro mais antigo
+//acha o registro com menor validade
+no *acharAntigo(no *lista, int codigo)
 {
-    printf("entrou no achar antigo");
+    //printf("entrou no achar antigo\n");
 
-    no *aux;
+    no *aux = NULL;
 
     while (lista != NULL) //achar primeira ocorrencia do produto na lista
     {
-        if ( lista->dados.cod == codigo)
+        if (lista->dados.cod == codigo)
         {
 
             aux = lista;
+            //printf("achou primeira ocorrencia!\n");
 
             break;
         }
 
-        lista = lista ->prox;
+        lista = lista->prox;
     }
 
     while (lista != NULL) // verifica se tem algum registro mais antigo do mesmo produto
@@ -203,49 +251,109 @@ no *acharAntigo(no *lista, int codigo) //acha o registro mais antigo
         lista = lista->prox;
     }
 
-    imprimirProduto(aux);
+    //imprimirProduto(aux);
     // printf("data_validade: %d/%d/%d\n",temp->dados.data_validade.data,
     //                                         temp->dados.data_validade.mes,
     //                                         temp->dados.data_validade.ano);
-   // return temp;
+    return aux;
 }
-//TODO Retirar produto
-no *remover(no **lista)
+
+//verifica se a quantidade solicitada está disponível
+bool prodDisponivel(no *lista, int cod, int qtd)
 {
-    int codigo, removeQtd;
+    no *aux = buscarItem(lista, cod);
 
-    printf("\n\ndigite o código do produto a ser removido:\n");
+    int disp = contarItem(aux);
 
-    fscanf(stdin, "%d", &codigo);
+    return (disp - qtd) >= 0;
+}
 
+
+//remover nó da lista;
+void removerNo(no **noLista)
+{
+    no *aux = *noLista;
+    printf("entrou no remover no\n");
+    //imprimirProduto(aux);
+
+    if ((*noLista)->ant == NULL)
+    {
+        *noLista = (*noLista)->prox;
+        printf("entrou no if 1\n");
+        imprimirProduto(*noLista);
+    }
+    else
+    {
+        printf("entrou no else \n");
+
+        aux->ant->prox = aux->prox;
+    }
+
+    if (aux->prox != NULL)
+    {
+        printf("entrou no if 2\n");
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+        aux->prox->ant = aux->ant;
+    }
+
+    free(aux); 
+
+    return;
+}
+
+//TODO Retirar produto
+void removerProduto(no **lista)
+{
     if ((*lista) == NULL)
     {
         printf("Lista vazia!!\n");
     }
     else
     {
-        printf("chegou aqui!");
+        int codigo, qtd;
 
-        no *antigo = acharAntigo(*lista, codigo);
+        printf("\n\ndigite o código do produto a ser retirado: ");
+        fscanf(stdin, "%d", &codigo);
 
-        //printf(" descriçao: %s", (antigo)->dados.descricao);
-        //imprimirProduto(&antigo);
-        /*antigo->dados.quantidade -= 1;
+        printf("digite a quantidade a ser retirada: ");
+        fscanf(stdin, "%d", &qtd);
 
-        //no *ant = antecessor(lista, antigo);
+        if (!prodDisponivel(*lista, codigo, qtd))
+        {
+            printf("Quantidade desejada indisponível no estoque!");
 
-        if (antigo->dados.quantidade == 0)
+            return;
+        }
+        else
         {
 
-            /* if(ant != NULL){
+            no *antigo = acharAntigo(*lista, codigo);
 
-                ant->prox = antigo->prox;
+            int sobra = antigo->dados.quantidade - qtd;
+
+            if (sobra > 0)
+            {
+                antigo->dados.quantidade = sobra;
+
+                return;
             }
-            
-            free(antigo);
-        }*/
+            else if (sobra == 0)
+            {
+                removerNo(&antigo);
+
+                //tem que remover aqui ó
+            }
+            else
+            {
+                removerNo(&antigo);
+                //tem que remover aqui ó
+                qtd = sobra * -1;
+            }
+        }
+
+        
     }
-    //return lista;
+    
 }
 
 int main()
@@ -257,7 +365,7 @@ int main()
 
     while (opcao != 5)
     {
-        printf("**************MENU*************\n");
+        printf("\n\n**************MENU*************\n\n");
         printf("1 - Listar\n");
         printf("2 - Inserir\n");
         printf("3 - Remover\n");
@@ -269,30 +377,31 @@ int main()
         switch (opcao)
         {
         case 1:
+            printf("\n****Listando estoque****\n\n");
             listar(lista);
             setbuf(stdin, NULL);
-            printf("\nPress ENTER to continue...");
-            getchar();
+            //printf("\nPress ENTER to continue...");
+            //            getchar();
 
             break;
 
         case 2:
-            inserir(&lista);
+            inserirProduto(&lista);
             setbuf(stdin, NULL);
-            printf("\nPress ENTER to continue...");
-            getchar();
+            //printf("\nPress ENTER to continue...");
+            //getchar();
             break;
         case 3:
-            remover(&lista);
+            removerProduto(&lista);
             setbuf(stdin, NULL);
-            printf("\nPress ENTER to continue...");
-            getchar();
+            //printf("\nPress ENTER to continue...");
+            //getchar();
             break;
         case 4:
             consultar(lista);
             setbuf(stdin, NULL);
-            printf("\nPress ENTER to continue...");
-            getchar();
+            //printf("\nPress ENTER to continue...");
+            //getchar();
         case 5:
 
             break;
