@@ -52,30 +52,29 @@ bool criar(no **lista)
 // inserir produto
 bool inserirProduto(no **lista)
 {
-    printf("\n****insira um produto****\n");
+    printf("\n*****insira um produto*****\n");
 
     no *aux;
 
-    //aux = malloc(sizeof(no));
     criar(&aux);
 
-    printf("Digite o código do produto:\n");
+    printf("Digite o código do produto:\n>>");
     fscanf(stdin, "%d", &aux->dados.cod);
     getchar();
-    /* 
-    printf("Digite a descrição do produto:\n");
+    
+    printf("Digite a descrição do produto:\n>>");
     fgets(aux->dados.descricao, 30, stdin);
 
-    printf("Digite o marca do produto:\n");
+    printf("Digite o marca do produto:\n>>");
     fgets(aux->dados.marca, 30, stdin);
- */
-    printf("Digite a validade do produto (apenas numeros):\n");
+ 
+    printf("Digite a validade do produto (apenas numeros):\n>>");
 
     fscanf(stdin, "%2d", &aux->dados.data_validade.dia);
     fscanf(stdin, "%2d", &aux->dados.data_validade.mes);
     fscanf(stdin, "%4d", &aux->dados.data_validade.ano);
 
-    printf("Digite a quantidade:\n");
+    printf("Digite a quantidade:\n>>");
     fscanf(stdin, "%d", &aux->dados.quantidade);
 
     aux->prox = *lista;
@@ -99,8 +98,8 @@ void imprimirProduto(no *lista)
     else
     {
         printf("código: %d\n", (lista)->dados.cod);
-        /* printf("descricao : %s", (lista)->dados.descricao);
-         printf("marca: %s", (lista)->dados.marca);*/
+        printf("descricao : %s", (lista)->dados.descricao);
+        printf("marca: %s", (lista)->dados.marca);
         printf("data_validade: %d/%d/%d\n", (lista)->dados.data_validade.dia,
                (lista)->dados.data_validade.mes,
                (lista)->dados.data_validade.ano);
@@ -184,7 +183,7 @@ void consultar(no *lista)
 {
     int codigo, qtd = 0;
 
-    printf("\n\ndigite o código do produto a ser consultado:\n");
+    printf("\n\ndigite o código do produto a ser consultado:\n>>");
 
     fscanf(stdin, "%d", &codigo);
 
@@ -203,7 +202,7 @@ void consultar(no *lista)
         }
         else
         {
-            printf("Produto não disponível no estoque!\n");
+            printf("\nProduto não disponível no estoque!\n");
         }
     }
     return;
@@ -212,8 +211,6 @@ void consultar(no *lista)
 //acha o registro com menor validade
 no *acharAntigo(no *lista, int codigo)
 {
-    //printf("entrou no achar antigo\n");
-
     no *aux = NULL;
 
     while (lista != NULL) //achar primeira ocorrencia do produto na lista
@@ -222,7 +219,6 @@ no *acharAntigo(no *lista, int codigo)
         {
 
             aux = lista;
-            //printf("achou primeira ocorrencia!\n");
 
             break;
         }
@@ -256,10 +252,6 @@ no *acharAntigo(no *lista, int codigo)
         lista = lista->prox;
     }
 
-    //imprimirProduto(aux);
-    // printf("data_validade: %d/%d/%d\n",temp->dados.data_validade.data,
-    //                                         temp->dados.data_validade.mes,
-    //                                         temp->dados.data_validade.ano);
     return aux;
 }
 
@@ -276,83 +268,40 @@ bool prodDisponivel(no *lista, int cod, int qtd)
 //remover nó da lista;
 no *removerNo(no *lista, no *No)
 {
-    no *aux = lista;
-    printf("entrou no remover no\n");
-    //imprimirProduto(aux);
-
-    if ((lista)->ant == NULL)
-    {
-        lista = (lista)->prox;
-        printf("entrou no if 1\n");
-        imprimirProduto((lista)->ant);
-    }
-    else
-    {
-        printf("entrou no else \n");
-
-        aux->ant->prox = aux->prox;
-    }
-
-    if (aux->prox != NULL)
-    {
-        printf("entrou no if 2\n");
-
-        aux->prox->ant = aux->ant;
-    }
-
-    free(aux);
-
-    return lista;
-}
-
-no *remove_item(no *lista, no *No)
-{
-    printf("lista: %x, No: %x", lista, No);
     no *atual = lista;
 
     while (atual != NULL && atual != No)
     {
-        printf("Tá no while\n");
 
         atual = atual->prox;
     }
-    printf("atual: %x, No: %x", atual, No);
 
     if (atual == NULL)
     {
-        printf("atual == NULL\n");
 
         return lista;
     }
 
     if (lista == atual)
     {
-        printf("lista == atual\n");
         lista = atual->prox;
     }
     else
     {
-        //printf("else do lista == atual\n");
         atual->ant->prox = atual->prox;
 
-        printf("saindo\n");
     }
 
     if (atual->prox != NULL)
     {
-        printf("atual->prox != NULL\n");
-
         atual->prox->ant = atual->ant;
-        printf("saindo\n");
     }
 
-    printf("chegou no free\n");
     free(atual);
-    printf("Deu free\n");
     return lista;
 }
 
-//TODO Retirar produto
+// Retirar produto
 void removerProduto(no **lista)
 {
     if ((*lista) == NULL)
@@ -363,21 +312,21 @@ void removerProduto(no **lista)
     {
         int codigo, qtd;
 
-        printf("\n\ndigite o código do produto a ser retirado: ");
+        printf("\n\ndigite o código do produto a ser retirado: \n>>");
         fscanf(stdin, "%d", &codigo);
 
-        printf("digite a quantidade a ser retirada: ");
+        printf("digite a quantidade a ser retirada: \n>>");
         fscanf(stdin, "%d", &qtd);
 
         if (!prodDisponivel(*lista, codigo, qtd))
         {
-            printf("Quantidade desejada indisponível no estoque!");
+            printf("Produto ou quantidade desejada indisponível no estoque!\n");
 
             return;
         }
         else
         {
-            while(qtd > 0)
+            while (qtd > 0)
             {
                 no *antigo = acharAntigo(*lista, codigo);
 
@@ -385,25 +334,20 @@ void removerProduto(no **lista)
 
                 if (sobra > 0)
                 {
-                    //printf("entrou em sobra > 0\n");
                     antigo->dados.quantidade = sobra;
                     break;
                     return;
                 }
                 else if (sobra == 0)
                 {
-                    printf("entrou em sobra == 0\n");
-                    *lista = remove_item(*lista, antigo);
+                    *lista = removerNo(*lista, antigo);
                     break;
                     return;
-                    //tem que remover aqui ó
                 }
                 else
                 {
-                    printf("entrou em sobra <= 0\n");
-                    *lista = remove_item(*lista, antigo);
+                    *lista = removerNo(*lista, antigo);
 
-                    //tem que remover aqui ó
                     qtd = sobra * -1;
                 }
             }
@@ -427,6 +371,8 @@ int main()
         printf("4 - Consultar\n");
         printf("5 - Sair\n>>");
 
+        char pause;
+
         scanf("%d", &opcao);
 
         switch (opcao)
@@ -435,28 +381,29 @@ int main()
             printf("\n****Listando estoque****\n\n");
             listar(lista);
             setbuf(stdin, NULL);
-            //printf("\nPress ENTER to continue...");
-            //            getchar();
+            /*printf("\nPress ENTER to continue...");
+            scanf("%c", &pause);*/
 
             break;
 
         case 2:
             inserirProduto(&lista);
             setbuf(stdin, NULL);
-            //printf("\nPress ENTER to continue...");
-            //getchar();
+            /*printf("\nPress ENTER to continue...");
+            scanf("%c", &pause); */
             break;
         case 3:
             removerProduto(&lista);
             setbuf(stdin, NULL);
-            //printf("\nPress ENTER to continue...");
-            //getchar();
+            /*printf("\nPress ENTER to continue...");
+            scanf("%c", &pause);*/
             break;
         case 4:
             consultar(lista);
             setbuf(stdin, NULL);
-            //printf("\nPress ENTER to continue...");
-            //getchar();
+            /*printf("\nPress ENTER to continue...");
+            scanf("%c", &pause);*/
+
         case 5:
 
             break;
@@ -466,7 +413,7 @@ int main()
 
             continue;
         }
-        // system("clear");
+        //system("clear");
     }
 
     return 0;
