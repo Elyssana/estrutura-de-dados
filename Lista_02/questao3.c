@@ -1,6 +1,3 @@
-/*3 atividade) Faça um programa de gerenciamento do estoque de produtos de uma fábrica com uma lista. Considerando que o registro dos produtos no estoque contenha as seguintes informações: código, descrição, marca, data de validade e quantidade. Espera-se com este programa poder listar na tela um relatório do estoque atual, incluir, retira e consultar produtos do estoque. Lembre-se que a operação de retirada deve priorizar a saída dos produtos mais antigos e só depois dos produtos mais novos, para evitar a perda de produto por prazo de validade.
-
-(observação você vai precisar de uma struct para definir o produto, observe que como temos diferentes entradas de um mesmo produto é necessário que você subtraia a quantidade de produtos de uma entrada no estoque até que ela seja zero, sendo primeiro retirada as entradas com prazo de validade mais próximo e depois a com prazo de validade mais distante) */
 
 #include <stdio.h>
 #include <stdlib.h>
