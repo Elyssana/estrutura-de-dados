@@ -170,7 +170,7 @@ pilha *resolve_torre(pilha *torres[], int n, int orig, int dest, int aux)
     if (n >= 1)
     {
         int origProx = torre_do_disco(torres, n - 1);
-        
+        aux = torre_aux(orig, dest);//
         resolve_torre(torres, n - 1, origProx, aux, dest);
 
         //if (orig != dest){
