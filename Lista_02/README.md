@@ -2,13 +2,13 @@
 
 2 atividade) Faça um programa de gerenciamento de uma fila de atendimento de banco, considerando que existe 3 tipos de clientes:
 
-o com prioridade zero, que é uma pessoa que não é cliente do banco,
+* prioridade zero, que é uma pessoa que não é cliente do banco,
 
-o com prioridade um, que é uma pessoa que é cliente do banco,
+* prioridade um, que é uma pessoa que é cliente do banco,
 
-o com prioridade dois, que é uma pessoa que não é cliente do banco e que tem prioridade por lei no atendimento,
+* prioridade dois, que é uma pessoa que não é cliente do banco e que tem prioridade por lei no atendimento,
 
-o com prioridade três, que é uma pessoa que é cliente do banco e que tem prioridade por lei no atendimento.
+* prioridade três, que é uma pessoa que é cliente do banco e que tem prioridade por lei no atendimento.
 
 Seu programa deve prever um atendimento balanceado de modo que os clientes sejam atendidos em períodos balanceados, para que um cliente de prioridade baixa não fica aguardando indefinidamente. (dica para balancear, você deve encontrar o número de clientes de cada prioridade que deve ser atendido de forma intercalada. Lembre-se que este número de balanceamento se altera a cada entra e/ou sai da cliente na fila, para facilitar esta dinâmica, considere o recalculo do balanceamento a cada 4 novos acontecimentos de entrada e/ou saída)
 
