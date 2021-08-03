@@ -1,12 +1,13 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
+//Aluna: Elyssana Maria 
+//Compilador: gcc
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
 
 #define MAX 5
+
+int mov = 0;
 
 typedef struct pilha
 {
@@ -81,17 +82,18 @@ pilha *ler_discos(pilha *torres[])
 
         scanf("%d", &qtd_discos);
 
-        //TODO verificar se qtd tá disponivel
+        //TODO verificar se qtd especificada está disponivel
 
-        printf("Digite os discos da %dª torre:\n>", i + 1);
+        if (qtd_discos > 0)
+        {
+            printf("Digite os discos da %dª torre:\n>", i + 1);
+        }
 
         while (qtd_discos > 0)
         {
-            //printf(">");
-
             scanf("%d", &disco);
 
-            //TODO verrificar numero digitador é valido(*entre 1 e 5, * não foi digitado antes, e se menor que o anterior)
+            //TODO verificar se numero digitado é valido(*entre 1 e 5, *não foi digitado antes, * se menor que o anterior da pilha)
 
             empilha(torres[i], disco);
 
@@ -124,17 +126,13 @@ int torre_do_disco(pilha *torres[], int disco)
     int i = 0;
     int j = 0;
 
-    //printf("DISCO: %d\n", disco);
 
     for (int i = 0; i < 3; i++)
     {
         for (int j = 0; j <= torres[i]->topo; j++)
         {
-            //printf("torre i=%d - posição j=%d - disc %d\n", i, j, torres[i]->discos[j]);
-
             if (torres[i]->discos[j] == disco)
             {
-                //printf("entrou no if\n");
                 return i;
             }
         }
@@ -145,7 +143,6 @@ int torre_aux(int orig, int dest)
 {
     if (orig == 0)
     {
-
         return dest == 1 ? 2 : 1;
     }
     else if (orig == 1)
@@ -165,25 +162,30 @@ int move(pilha *torres[], int orig, int dest)
     empilha(torres[dest], disco);
 }
 
-pilha *resolve_torre(pilha *torres[], int n, int orig, int dest, int aux)
+pilha *resolve_torre(pilha *torres[], int n, int orig, int dest)
 {
     if (n >= 1)
     {
         int origProx = torre_do_disco(torres, n - 1);
-        aux = torre_aux(orig, dest);//
-        resolve_torre(torres, n - 1, origProx, aux, dest);
 
-        //if (orig != dest){
-        move(torres, orig, dest);
+        int aux = torre_aux(orig, dest); //
 
-        imprimir_torres(torres);
-        //}
+        resolve_torre(torres, n - 1, origProx, aux);
+
+        if (orig != dest)
+        {
+            move(torres, orig, dest);
+            
+            printf("Movimento %d:\n", ++mov);
+
+            imprimir_torres(torres);
+        }
 
         int auxProx = torre_aux(aux, dest);
 
         origProx = torre_do_disco(torres, n - 1);
 
-        resolve_torre(torres, n - 1, origProx, dest, auxProx);
+        resolve_torre(torres, n - 1, origProx, dest);
     }
 }
 
@@ -201,15 +203,8 @@ int main()
     imprimir_torres(torre);
 
     int dest = torre_do_disco(torre, MAX);
-    //printf("destino %d\n", dest);
 
     int orig = torre_do_disco(torre, MAX - 1);
-    //printf("origem %d\n", orig);
 
-    int aux = torre_aux(orig, dest);
-    //printf("auxiliar %d\n", aux);
-
-    resolve_torre(torre, MAX - 1, orig, dest, aux);
-
-    //imprimir_torres(torre);
+    resolve_torre(torre, MAX - 1, orig, dest);
 }
