@@ -1,2 +1,2 @@
 # estrutura-de-dados
-Exercícios da disciplina de Estrutura de dados do curso de ciência da computação
+Exercícios da disciplina de Estrutura de Dados do curso de ciência da computação
