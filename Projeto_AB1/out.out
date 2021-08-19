@@ -1,0 +1,6148 @@
+entrou no potesDeVinhos origem valendo = 8|0|0
+-----lista
+8|0|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+3|5|0
+origem: 8|0|0
+aux: 3|5|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 3|5|0
+-----lista
+8|0|0
+3|5|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+0|5|3
+origem: 3|5|0
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+3|5|0
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 5|0|3
+-----lista
+8|0|0
+3|5|0
+0|5|3
+5|0|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+0|5|3
+origem: 5|0|3
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+8|0|0
+origem: 5|0|3
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+8|0|0
+5|3|0
+origem: 5|0|3
+aux: 5|3|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 5|3|0
+-----lista
+8|0|0
+3|5|0
+0|5|3
+5|0|3
+5|3|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 2
+-----lista
+3|5|0
+origem: 5|3|0
+aux: 3|5|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+2|3|3
+origem: 5|3|0
+aux: 2|3|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 2|3|3
+-----lista
+8|0|0
+3|5|0
+0|5|3
+5|0|3
+5|3|0
+2|3|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 2
+-----lista
+0|5|3
+origem: 2|3|3
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+origem: 2|3|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+5|3|0
+origem: 2|3|3
+aux: 5|3|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 2
+-----lista
+0|5|3
+5|0|3
+5|3|0
+2|5|1
+origem: 2|3|3
+aux: 2|5|1
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 2|5|1
+-----lista
+8|0|0
+3|5|0
+0|5|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 2
+-----lista
+0|5|3
+origem: 2|5|1
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+7|0|1
+origem: 2|5|1
+aux: 7|0|1
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 7|0|1
+-----lista
+8|0|0
+3|5|0
+0|5|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+2|5|1
+origem: 7|0|1
+aux: 2|5|1
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 2
+-----lista
+2|5|1
+5|0|3
+origem: 7|0|1
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 1
+-----lista
+2|5|1
+5|0|3
+8|0|0
+origem: 7|0|1
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 1
+-----lista
+2|5|1
+5|0|3
+8|0|0
+7|1|0
+origem: 7|0|1
+aux: 7|1|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 7|1|0
+-----lista
+8|0|0
+3|5|0
+0|5|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 4
+-----lista
+3|5|0
+origem: 7|1|0
+aux: 3|5|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+4|1|3
+origem: 7|1|0
+aux: 4|1|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|1|3
+-----lista
+8|0|0
+3|5|0
+0|5|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+4|1|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 4
+-----lista
+0|5|3
+origem: 4|1|3
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 1
+-----lista
+0|5|3
+5|0|3
+origem: 4|1|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+7|1|0
+origem: 4|1|3
+aux: 7|1|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+5|0|3
+7|1|0
+4|4|0
+origem: 4|1|3
+aux: 4|4|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|4|0
+-----lista
+4|4|0
+lista dest:
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 1
+-----lista
+3|5|0
+4|1|3
+8|0|0
+origem: 7|1|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 1
+-----lista
+3|5|0
+4|1|3
+8|0|0
+7|0|1
+origem: 7|1|0
+aux: 7|0|1
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 2
+-----lista
+0|5|3
+7|0|1
+2|3|3
+origem: 2|5|1
+aux: 2|3|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 1
+-----lista
+0|5|3
+7|0|1
+2|3|3
+3|5|0
+origem: 2|5|1
+aux: 3|5|0
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 3
+-----lista
+3|5|0
+2|3|3
+8|0|0
+origem: 5|3|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 3
+-----lista
+3|5|0
+2|3|3
+8|0|0
+5|0|3
+origem: 5|3|0
+aux: 5|0|3
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+8|0|0
+origem: 3|5|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 3
+-----lista
+0|5|3
+8|0|0
+3|2|3
+origem: 3|5|0
+aux: 3|2|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 3|2|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 3
+-----lista
+0|5|3
+origem: 3|2|3
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 5|0|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+0|5|3
+5|0|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+0|5|3
+origem: 5|0|3
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+8|0|0
+origem: 5|0|3
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+8|0|0
+5|3|0
+origem: 5|0|3
+aux: 5|3|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 5|3|0
+-----lista
+8|0|0
+3|5|0
+3|2|3
+0|5|3
+5|0|3
+5|3|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 2
+-----lista
+3|5|0
+origem: 5|3|0
+aux: 3|5|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+2|3|3
+origem: 5|3|0
+aux: 2|3|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 2|3|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+0|5|3
+5|0|3
+5|3|0
+2|3|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 2
+-----lista
+0|5|3
+origem: 2|3|3
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+origem: 2|3|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+5|3|0
+origem: 2|3|3
+aux: 5|3|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 2
+-----lista
+0|5|3
+5|0|3
+5|3|0
+2|5|1
+origem: 2|3|3
+aux: 2|5|1
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 2|5|1
+-----lista
+8|0|0
+3|5|0
+3|2|3
+0|5|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 2
+-----lista
+0|5|3
+origem: 2|5|1
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+7|0|1
+origem: 2|5|1
+aux: 7|0|1
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 7|0|1
+-----lista
+8|0|0
+3|5|0
+3|2|3
+0|5|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+2|5|1
+origem: 7|0|1
+aux: 2|5|1
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 2
+-----lista
+2|5|1
+5|0|3
+origem: 7|0|1
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 1
+-----lista
+2|5|1
+5|0|3
+8|0|0
+origem: 7|0|1
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 1
+-----lista
+2|5|1
+5|0|3
+8|0|0
+7|1|0
+origem: 7|0|1
+aux: 7|1|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 7|1|0
+-----lista
+8|0|0
+3|5|0
+3|2|3
+0|5|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 4
+-----lista
+3|5|0
+origem: 7|1|0
+aux: 3|5|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+4|1|3
+origem: 7|1|0
+aux: 4|1|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|1|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+0|5|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+4|1|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 4
+-----lista
+0|5|3
+origem: 4|1|3
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 1
+-----lista
+0|5|3
+5|0|3
+origem: 4|1|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+7|1|0
+origem: 4|1|3
+aux: 7|1|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+5|0|3
+7|1|0
+4|4|0
+origem: 4|1|3
+aux: 4|4|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|4|0
+-----lista
+4|4|0
+lista dest:
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 1
+-----lista
+3|5|0
+4|1|3
+8|0|0
+origem: 7|1|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 1
+-----lista
+3|5|0
+4|1|3
+8|0|0
+7|0|1
+origem: 7|1|0
+aux: 7|0|1
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 2
+-----lista
+0|5|3
+7|0|1
+2|3|3
+origem: 2|5|1
+aux: 2|3|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 1
+-----lista
+0|5|3
+7|0|1
+2|3|3
+3|5|0
+origem: 2|5|1
+aux: 3|5|0
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 3
+-----lista
+3|5|0
+2|3|3
+8|0|0
+origem: 5|3|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 3
+-----lista
+3|5|0
+2|3|3
+8|0|0
+5|0|3
+origem: 5|3|0
+aux: 5|0|3
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 2
+-----lista
+0|5|3
+5|0|3
+origem: 3|2|3
+aux: 5|0|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 5|0|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+5|0|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+0|5|3
+origem: 5|0|3
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+5|0|3
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+8|0|0
+origem: 5|0|3
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+8|0|0
+5|3|0
+origem: 5|0|3
+aux: 5|3|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 5|3|0
+-----lista
+8|0|0
+3|5|0
+3|2|3
+5|0|3
+5|3|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 2
+-----lista
+3|5|0
+origem: 5|3|0
+aux: 3|5|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+2|3|3
+origem: 5|3|0
+aux: 2|3|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 2|3|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+5|0|3
+5|3|0
+2|3|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 2
+-----lista
+0|5|3
+origem: 2|3|3
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+5|0|3
+5|3|0
+2|3|3
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+origem: 2|3|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+5|3|0
+origem: 2|3|3
+aux: 5|3|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 2
+-----lista
+0|5|3
+5|0|3
+5|3|0
+2|5|1
+origem: 2|3|3
+aux: 2|5|1
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 2|5|1
+-----lista
+8|0|0
+3|5|0
+3|2|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 2
+-----lista
+0|5|3
+origem: 2|5|1
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+7|0|1
+origem: 2|5|1
+aux: 7|0|1
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 7|0|1
+-----lista
+8|0|0
+3|5|0
+3|2|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+2|5|1
+origem: 7|0|1
+aux: 2|5|1
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 2
+-----lista
+2|5|1
+5|0|3
+origem: 7|0|1
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 1
+-----lista
+2|5|1
+5|0|3
+8|0|0
+origem: 7|0|1
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 1
+-----lista
+2|5|1
+5|0|3
+8|0|0
+7|1|0
+origem: 7|0|1
+aux: 7|1|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 7|1|0
+-----lista
+8|0|0
+3|5|0
+3|2|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 4
+-----lista
+3|5|0
+origem: 7|1|0
+aux: 3|5|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+4|1|3
+origem: 7|1|0
+aux: 4|1|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|1|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+4|1|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 4
+-----lista
+0|5|3
+origem: 4|1|3
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+4|1|3
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 1
+-----lista
+0|5|3
+5|0|3
+origem: 4|1|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+7|1|0
+origem: 4|1|3
+aux: 7|1|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+5|0|3
+7|1|0
+4|4|0
+origem: 4|1|3
+aux: 4|4|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|4|0
+-----lista
+4|4|0
+lista dest:
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 1
+-----lista
+3|5|0
+4|1|3
+8|0|0
+origem: 7|1|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 1
+-----lista
+3|5|0
+4|1|3
+8|0|0
+7|0|1
+origem: 7|1|0
+aux: 7|0|1
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 2
+-----lista
+0|5|3
+7|0|1
+2|3|3
+origem: 2|5|1
+aux: 2|3|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 1
+-----lista
+0|5|3
+7|0|1
+2|3|3
+3|5|0
+origem: 2|5|1
+aux: 3|5|0
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 3
+-----lista
+3|5|0
+2|3|3
+8|0|0
+origem: 5|3|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 3
+-----lista
+3|5|0
+2|3|3
+8|0|0
+5|0|3
+origem: 5|3|0
+aux: 5|0|3
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+6|2|0
+origem: 3|2|3
+aux: 6|2|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 6|2|0
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 3
+-----lista
+3|5|0
+origem: 6|2|0
+aux: 3|5|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+3|2|3
+origem: 6|2|0
+aux: 3|2|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 2
+-----lista
+3|5|0
+3|2|3
+8|0|0
+origem: 6|2|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 2
+-----lista
+3|5|0
+3|2|3
+8|0|0
+6|0|2
+origem: 6|2|0
+aux: 6|0|2
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 6|0|2
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+1|5|2
+origem: 6|0|2
+aux: 1|5|2
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 1|5|2
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 1
+-----lista
+0|5|3
+origem: 1|5|2
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 5|0|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+0|5|3
+5|0|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+0|5|3
+origem: 5|0|3
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+8|0|0
+origem: 5|0|3
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+8|0|0
+5|3|0
+origem: 5|0|3
+aux: 5|3|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 5|3|0
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+0|5|3
+5|0|3
+5|3|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 2
+-----lista
+3|5|0
+origem: 5|3|0
+aux: 3|5|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+2|3|3
+origem: 5|3|0
+aux: 2|3|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 2|3|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+0|5|3
+5|0|3
+5|3|0
+2|3|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 2
+-----lista
+0|5|3
+origem: 2|3|3
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+origem: 2|3|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+5|3|0
+origem: 2|3|3
+aux: 5|3|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 2
+-----lista
+0|5|3
+5|0|3
+5|3|0
+2|5|1
+origem: 2|3|3
+aux: 2|5|1
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 2|5|1
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+0|5|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 2
+-----lista
+0|5|3
+origem: 2|5|1
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+7|0|1
+origem: 2|5|1
+aux: 7|0|1
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 7|0|1
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+0|5|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+2|5|1
+origem: 7|0|1
+aux: 2|5|1
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 2
+-----lista
+2|5|1
+5|0|3
+origem: 7|0|1
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 1
+-----lista
+2|5|1
+5|0|3
+8|0|0
+origem: 7|0|1
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 1
+-----lista
+2|5|1
+5|0|3
+8|0|0
+7|1|0
+origem: 7|0|1
+aux: 7|1|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 7|1|0
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+0|5|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 4
+-----lista
+3|5|0
+origem: 7|1|0
+aux: 3|5|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+4|1|3
+origem: 7|1|0
+aux: 4|1|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|1|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+0|5|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+4|1|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 4
+-----lista
+0|5|3
+origem: 4|1|3
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 1
+-----lista
+0|5|3
+5|0|3
+origem: 4|1|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+7|1|0
+origem: 4|1|3
+aux: 7|1|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+5|0|3
+7|1|0
+4|4|0
+origem: 4|1|3
+aux: 4|4|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|4|0
+-----lista
+4|4|0
+lista dest:
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 1
+-----lista
+3|5|0
+4|1|3
+8|0|0
+origem: 7|1|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 1
+-----lista
+3|5|0
+4|1|3
+8|0|0
+7|0|1
+origem: 7|1|0
+aux: 7|0|1
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 2
+-----lista
+0|5|3
+7|0|1
+2|3|3
+origem: 2|5|1
+aux: 2|3|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 1
+-----lista
+0|5|3
+7|0|1
+2|3|3
+3|5|0
+origem: 2|5|1
+aux: 3|5|0
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 3
+-----lista
+3|5|0
+2|3|3
+8|0|0
+origem: 5|3|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 3
+-----lista
+3|5|0
+2|3|3
+8|0|0
+5|0|3
+origem: 5|3|0
+aux: 5|0|3
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+6|0|2
+origem: 1|5|2
+aux: 6|0|2
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 1
+-----lista
+0|5|3
+6|0|2
+1|4|3
+origem: 1|5|2
+aux: 1|4|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 1|4|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 1
+-----lista
+0|5|3
+origem: 1|4|3
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 5|0|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+0|5|3
+5|0|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+0|5|3
+origem: 5|0|3
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+8|0|0
+origem: 5|0|3
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+8|0|0
+5|3|0
+origem: 5|0|3
+aux: 5|3|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 5|3|0
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+0|5|3
+5|0|3
+5|3|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 2
+-----lista
+3|5|0
+origem: 5|3|0
+aux: 3|5|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+2|3|3
+origem: 5|3|0
+aux: 2|3|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 2|3|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+0|5|3
+5|0|3
+5|3|0
+2|3|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 2
+-----lista
+0|5|3
+origem: 2|3|3
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+origem: 2|3|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+5|3|0
+origem: 2|3|3
+aux: 5|3|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 2
+-----lista
+0|5|3
+5|0|3
+5|3|0
+2|5|1
+origem: 2|3|3
+aux: 2|5|1
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 2|5|1
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+0|5|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 2
+-----lista
+0|5|3
+origem: 2|5|1
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+7|0|1
+origem: 2|5|1
+aux: 7|0|1
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 7|0|1
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+0|5|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+2|5|1
+origem: 7|0|1
+aux: 2|5|1
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 2
+-----lista
+2|5|1
+5|0|3
+origem: 7|0|1
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 1
+-----lista
+2|5|1
+5|0|3
+8|0|0
+origem: 7|0|1
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 1
+-----lista
+2|5|1
+5|0|3
+8|0|0
+7|1|0
+origem: 7|0|1
+aux: 7|1|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 7|1|0
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+0|5|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 4
+-----lista
+3|5|0
+origem: 7|1|0
+aux: 3|5|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+4|1|3
+origem: 7|1|0
+aux: 4|1|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|1|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+0|5|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+4|1|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 4
+-----lista
+0|5|3
+origem: 4|1|3
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 1
+-----lista
+0|5|3
+5|0|3
+origem: 4|1|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+7|1|0
+origem: 4|1|3
+aux: 7|1|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+5|0|3
+7|1|0
+4|4|0
+origem: 4|1|3
+aux: 4|4|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|4|0
+-----lista
+4|4|0
+lista dest:
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 1
+-----lista
+3|5|0
+4|1|3
+8|0|0
+origem: 7|1|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 1
+-----lista
+3|5|0
+4|1|3
+8|0|0
+7|0|1
+origem: 7|1|0
+aux: 7|0|1
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 2
+-----lista
+0|5|3
+7|0|1
+2|3|3
+origem: 2|5|1
+aux: 2|3|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 1
+-----lista
+0|5|3
+7|0|1
+2|3|3
+3|5|0
+origem: 2|5|1
+aux: 3|5|0
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 3
+-----lista
+3|5|0
+2|3|3
+8|0|0
+origem: 5|3|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 3
+-----lista
+3|5|0
+2|3|3
+8|0|0
+5|0|3
+origem: 5|3|0
+aux: 5|0|3
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 4
+-----lista
+0|5|3
+5|0|3
+origem: 1|4|3
+aux: 5|0|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 5|0|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+5|0|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+0|5|3
+origem: 5|0|3
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+5|0|3
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+8|0|0
+origem: 5|0|3
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+8|0|0
+5|3|0
+origem: 5|0|3
+aux: 5|3|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 5|3|0
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+5|0|3
+5|3|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 2
+-----lista
+3|5|0
+origem: 5|3|0
+aux: 3|5|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+2|3|3
+origem: 5|3|0
+aux: 2|3|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 2|3|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+5|0|3
+5|3|0
+2|3|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 2
+-----lista
+0|5|3
+origem: 2|3|3
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+5|0|3
+5|3|0
+2|3|3
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+origem: 2|3|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+5|3|0
+origem: 2|3|3
+aux: 5|3|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 2
+-----lista
+0|5|3
+5|0|3
+5|3|0
+2|5|1
+origem: 2|3|3
+aux: 2|5|1
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 2|5|1
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 2
+-----lista
+0|5|3
+origem: 2|5|1
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+7|0|1
+origem: 2|5|1
+aux: 7|0|1
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 7|0|1
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+2|5|1
+origem: 7|0|1
+aux: 2|5|1
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 2
+-----lista
+2|5|1
+5|0|3
+origem: 7|0|1
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 1
+-----lista
+2|5|1
+5|0|3
+8|0|0
+origem: 7|0|1
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 1
+-----lista
+2|5|1
+5|0|3
+8|0|0
+7|1|0
+origem: 7|0|1
+aux: 7|1|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 7|1|0
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 4
+-----lista
+3|5|0
+origem: 7|1|0
+aux: 3|5|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+4|1|3
+origem: 7|1|0
+aux: 4|1|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|1|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+4|1|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 4
+-----lista
+0|5|3
+origem: 4|1|3
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+4|1|3
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 1
+-----lista
+0|5|3
+5|0|3
+origem: 4|1|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+7|1|0
+origem: 4|1|3
+aux: 7|1|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+5|0|3
+7|1|0
+4|4|0
+origem: 4|1|3
+aux: 4|4|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|4|0
+-----lista
+4|4|0
+lista dest:
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 1
+-----lista
+3|5|0
+4|1|3
+8|0|0
+origem: 7|1|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 1
+-----lista
+3|5|0
+4|1|3
+8|0|0
+7|0|1
+origem: 7|1|0
+aux: 7|0|1
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 2
+-----lista
+0|5|3
+7|0|1
+2|3|3
+origem: 2|5|1
+aux: 2|3|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 1
+-----lista
+0|5|3
+7|0|1
+2|3|3
+3|5|0
+origem: 2|5|1
+aux: 3|5|0
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 3
+-----lista
+3|5|0
+2|3|3
+8|0|0
+origem: 5|3|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 3
+-----lista
+3|5|0
+2|3|3
+8|0|0
+5|0|3
+origem: 5|3|0
+aux: 5|0|3
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+4|4|0
+origem: 1|4|3
+aux: 4|4|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|4|0
+-----lista
+4|4|0
+lista dest:
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 1
+-----lista
+0|5|3
+5|0|3
+4|4|0
+1|5|2
+origem: 1|4|3
+aux: 1|5|2
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 2
+-----lista
+0|5|3
+6|0|2
+1|4|3
+3|5|0
+origem: 1|5|2
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 1
+-----lista
+1|5|2
+5|0|3
+origem: 6|0|2
+aux: 5|0|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 5|0|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+5|0|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+0|5|3
+origem: 5|0|3
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+5|0|3
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+8|0|0
+origem: 5|0|3
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+8|0|0
+5|3|0
+origem: 5|0|3
+aux: 5|3|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 5|3|0
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+5|0|3
+5|3|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 2
+-----lista
+3|5|0
+origem: 5|3|0
+aux: 3|5|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+2|3|3
+origem: 5|3|0
+aux: 2|3|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 2|3|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+5|0|3
+5|3|0
+2|3|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 2
+-----lista
+0|5|3
+origem: 2|3|3
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+5|0|3
+5|3|0
+2|3|3
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+origem: 2|3|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+5|3|0
+origem: 2|3|3
+aux: 5|3|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 2
+-----lista
+0|5|3
+5|0|3
+5|3|0
+2|5|1
+origem: 2|3|3
+aux: 2|5|1
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 2|5|1
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 2
+-----lista
+0|5|3
+origem: 2|5|1
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+7|0|1
+origem: 2|5|1
+aux: 7|0|1
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 7|0|1
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+2|5|1
+origem: 7|0|1
+aux: 2|5|1
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 2
+-----lista
+2|5|1
+5|0|3
+origem: 7|0|1
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 1
+-----lista
+2|5|1
+5|0|3
+8|0|0
+origem: 7|0|1
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 1
+-----lista
+2|5|1
+5|0|3
+8|0|0
+7|1|0
+origem: 7|0|1
+aux: 7|1|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 7|1|0
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 4
+-----lista
+3|5|0
+origem: 7|1|0
+aux: 3|5|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+4|1|3
+origem: 7|1|0
+aux: 4|1|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|1|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+4|1|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 4
+-----lista
+0|5|3
+origem: 4|1|3
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+4|1|3
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 1
+-----lista
+0|5|3
+5|0|3
+origem: 4|1|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+7|1|0
+origem: 4|1|3
+aux: 7|1|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+5|0|3
+7|1|0
+4|4|0
+origem: 4|1|3
+aux: 4|4|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|4|0
+-----lista
+4|4|0
+lista dest:
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 1
+-----lista
+3|5|0
+4|1|3
+8|0|0
+origem: 7|1|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 1
+-----lista
+3|5|0
+4|1|3
+8|0|0
+7|0|1
+origem: 7|1|0
+aux: 7|0|1
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 2
+-----lista
+0|5|3
+7|0|1
+2|3|3
+origem: 2|5|1
+aux: 2|3|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 1
+-----lista
+0|5|3
+7|0|1
+2|3|3
+3|5|0
+origem: 2|5|1
+aux: 3|5|0
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 3
+-----lista
+3|5|0
+2|3|3
+8|0|0
+origem: 5|3|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 3
+-----lista
+3|5|0
+2|3|3
+8|0|0
+5|0|3
+origem: 5|3|0
+aux: 5|0|3
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 2
+-----lista
+1|5|2
+5|0|3
+8|0|0
+origem: 6|0|2
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 2
+-----lista
+1|5|2
+5|0|3
+8|0|0
+6|2|0
+origem: 6|0|2
+aux: 6|2|0
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+5|0|3
+6|2|0
+3|5|0
+origem: 3|2|3
+aux: 3|5|0
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+5|0|3
+origem: 8|0|0
+aux: 5|0|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 5|0|3
+-----lista
+8|0|0
+5|0|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+0|5|3
+origem: 5|0|3
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+5|0|3
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 3|5|0
+-----lista
+8|0|0
+5|0|3
+0|5|3
+3|5|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+0|5|3
+origem: 3|5|0
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+8|0|0
+origem: 3|5|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 3
+-----lista
+0|5|3
+8|0|0
+3|2|3
+origem: 3|5|0
+aux: 3|2|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 3|2|3
+-----lista
+8|0|0
+5|0|3
+0|5|3
+3|5|0
+3|2|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 3
+-----lista
+0|5|3
+origem: 3|2|3
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 2
+-----lista
+0|5|3
+5|0|3
+origem: 3|2|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+6|2|0
+origem: 3|2|3
+aux: 6|2|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 6|2|0
+-----lista
+8|0|0
+5|0|3
+0|5|3
+3|5|0
+3|2|3
+6|2|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 3
+-----lista
+3|5|0
+origem: 6|2|0
+aux: 3|5|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+3|2|3
+origem: 6|2|0
+aux: 3|2|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 2
+-----lista
+3|5|0
+3|2|3
+8|0|0
+origem: 6|2|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 2
+-----lista
+3|5|0
+3|2|3
+8|0|0
+6|0|2
+origem: 6|2|0
+aux: 6|0|2
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 6|0|2
+-----lista
+8|0|0
+5|0|3
+0|5|3
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+1|5|2
+origem: 6|0|2
+aux: 1|5|2
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 1|5|2
+-----lista
+8|0|0
+5|0|3
+0|5|3
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 1
+-----lista
+0|5|3
+origem: 1|5|2
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+6|0|2
+origem: 1|5|2
+aux: 6|0|2
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 1
+-----lista
+0|5|3
+6|0|2
+1|4|3
+origem: 1|5|2
+aux: 1|4|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 1|4|3
+-----lista
+8|0|0
+5|0|3
+0|5|3
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 1
+-----lista
+0|5|3
+origem: 1|4|3
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 4
+-----lista
+0|5|3
+5|0|3
+origem: 1|4|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+4|4|0
+origem: 1|4|3
+aux: 4|4|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|4|0
+-----lista
+4|4|0
+lista dest:
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 1
+-----lista
+0|5|3
+5|0|3
+4|4|0
+1|5|2
+origem: 1|4|3
+aux: 1|5|2
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 2
+-----lista
+0|5|3
+6|0|2
+1|4|3
+3|5|0
+origem: 1|5|2
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 1
+-----lista
+1|5|2
+5|0|3
+origem: 6|0|2
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 2
+-----lista
+1|5|2
+5|0|3
+8|0|0
+origem: 6|0|2
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 2
+-----lista
+1|5|2
+5|0|3
+8|0|0
+6|2|0
+origem: 6|0|2
+aux: 6|2|0
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+5|0|3
+6|2|0
+3|5|0
+origem: 3|2|3
+aux: 3|5|0
+
+voltou!
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+8|0|0
+origem: 5|0|3
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+8|0|0
+5|3|0
+origem: 5|0|3
+aux: 5|3|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 5|3|0
+-----lista
+8|0|0
+5|0|3
+5|3|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 2
+-----lista
+3|5|0
+origem: 5|3|0
+aux: 3|5|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 3|5|0
+-----lista
+8|0|0
+5|0|3
+5|3|0
+3|5|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+0|5|3
+origem: 3|5|0
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+3|5|0
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+8|0|0
+origem: 3|5|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 3
+-----lista
+0|5|3
+8|0|0
+3|2|3
+origem: 3|5|0
+aux: 3|2|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 3|2|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+3|5|0
+3|2|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 3
+-----lista
+0|5|3
+origem: 3|2|3
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+3|5|0
+3|2|3
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 2
+-----lista
+0|5|3
+5|0|3
+origem: 3|2|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+6|2|0
+origem: 3|2|3
+aux: 6|2|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 6|2|0
+-----lista
+8|0|0
+5|0|3
+5|3|0
+3|5|0
+3|2|3
+6|2|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 3
+-----lista
+3|5|0
+origem: 6|2|0
+aux: 3|5|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+3|2|3
+origem: 6|2|0
+aux: 3|2|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 2
+-----lista
+3|5|0
+3|2|3
+8|0|0
+origem: 6|2|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 2
+-----lista
+3|5|0
+3|2|3
+8|0|0
+6|0|2
+origem: 6|2|0
+aux: 6|0|2
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 6|0|2
+-----lista
+8|0|0
+5|0|3
+5|3|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+1|5|2
+origem: 6|0|2
+aux: 1|5|2
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 1|5|2
+-----lista
+8|0|0
+5|0|3
+5|3|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 1
+-----lista
+0|5|3
+origem: 1|5|2
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+6|0|2
+origem: 1|5|2
+aux: 6|0|2
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 1
+-----lista
+0|5|3
+6|0|2
+1|4|3
+origem: 1|5|2
+aux: 1|4|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 1|4|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 1
+-----lista
+0|5|3
+origem: 1|4|3
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 4
+-----lista
+0|5|3
+5|0|3
+origem: 1|4|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+4|4|0
+origem: 1|4|3
+aux: 4|4|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|4|0
+-----lista
+4|4|0
+lista dest:
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 1
+-----lista
+0|5|3
+5|0|3
+4|4|0
+1|5|2
+origem: 1|4|3
+aux: 1|5|2
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 2
+-----lista
+0|5|3
+6|0|2
+1|4|3
+3|5|0
+origem: 1|5|2
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 1
+-----lista
+1|5|2
+5|0|3
+origem: 6|0|2
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 2
+-----lista
+1|5|2
+5|0|3
+8|0|0
+origem: 6|0|2
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 2
+-----lista
+1|5|2
+5|0|3
+8|0|0
+6|2|0
+origem: 6|0|2
+aux: 6|2|0
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+5|0|3
+6|2|0
+3|5|0
+origem: 3|2|3
+aux: 3|5|0
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+2|3|3
+origem: 5|3|0
+aux: 2|3|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 2|3|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 2
+-----lista
+0|5|3
+origem: 2|3|3
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 3|5|0
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+0|5|3
+3|5|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+0|5|3
+origem: 3|5|0
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+8|0|0
+origem: 3|5|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 3
+-----lista
+0|5|3
+8|0|0
+3|2|3
+origem: 3|5|0
+aux: 3|2|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 3|2|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+0|5|3
+3|5|0
+3|2|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 3
+-----lista
+0|5|3
+origem: 3|2|3
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 2
+-----lista
+0|5|3
+5|0|3
+origem: 3|2|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+6|2|0
+origem: 3|2|3
+aux: 6|2|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 6|2|0
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+0|5|3
+3|5|0
+3|2|3
+6|2|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 3
+-----lista
+3|5|0
+origem: 6|2|0
+aux: 3|5|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+3|2|3
+origem: 6|2|0
+aux: 3|2|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 2
+-----lista
+3|5|0
+3|2|3
+8|0|0
+origem: 6|2|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 2
+-----lista
+3|5|0
+3|2|3
+8|0|0
+6|0|2
+origem: 6|2|0
+aux: 6|0|2
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 6|0|2
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+0|5|3
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+1|5|2
+origem: 6|0|2
+aux: 1|5|2
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 1|5|2
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+0|5|3
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 1
+-----lista
+0|5|3
+origem: 1|5|2
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+6|0|2
+origem: 1|5|2
+aux: 6|0|2
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 1
+-----lista
+0|5|3
+6|0|2
+1|4|3
+origem: 1|5|2
+aux: 1|4|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 1|4|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+0|5|3
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 1
+-----lista
+0|5|3
+origem: 1|4|3
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 4
+-----lista
+0|5|3
+5|0|3
+origem: 1|4|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+4|4|0
+origem: 1|4|3
+aux: 4|4|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|4|0
+-----lista
+4|4|0
+lista dest:
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 1
+-----lista
+0|5|3
+5|0|3
+4|4|0
+1|5|2
+origem: 1|4|3
+aux: 1|5|2
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 2
+-----lista
+0|5|3
+6|0|2
+1|4|3
+3|5|0
+origem: 1|5|2
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 1
+-----lista
+1|5|2
+5|0|3
+origem: 6|0|2
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 2
+-----lista
+1|5|2
+5|0|3
+8|0|0
+origem: 6|0|2
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 2
+-----lista
+1|5|2
+5|0|3
+8|0|0
+6|2|0
+origem: 6|0|2
+aux: 6|2|0
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+5|0|3
+6|2|0
+3|5|0
+origem: 3|2|3
+aux: 3|5|0
+
+voltou!
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+origem: 2|3|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+5|3|0
+origem: 2|3|3
+aux: 5|3|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 2
+-----lista
+0|5|3
+5|0|3
+5|3|0
+2|5|1
+origem: 2|3|3
+aux: 2|5|1
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 2|5|1
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 2
+-----lista
+0|5|3
+origem: 2|5|1
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 3|5|0
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+0|5|3
+3|5|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+0|5|3
+origem: 3|5|0
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+8|0|0
+origem: 3|5|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 3
+-----lista
+0|5|3
+8|0|0
+3|2|3
+origem: 3|5|0
+aux: 3|2|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 3|2|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+0|5|3
+3|5|0
+3|2|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 3
+-----lista
+0|5|3
+origem: 3|2|3
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 2
+-----lista
+0|5|3
+5|0|3
+origem: 3|2|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+6|2|0
+origem: 3|2|3
+aux: 6|2|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 6|2|0
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+0|5|3
+3|5|0
+3|2|3
+6|2|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 3
+-----lista
+3|5|0
+origem: 6|2|0
+aux: 3|5|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+3|2|3
+origem: 6|2|0
+aux: 3|2|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 2
+-----lista
+3|5|0
+3|2|3
+8|0|0
+origem: 6|2|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 2
+-----lista
+3|5|0
+3|2|3
+8|0|0
+6|0|2
+origem: 6|2|0
+aux: 6|0|2
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 6|0|2
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+0|5|3
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+1|5|2
+origem: 6|0|2
+aux: 1|5|2
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 1|5|2
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+0|5|3
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 1
+-----lista
+0|5|3
+origem: 1|5|2
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+6|0|2
+origem: 1|5|2
+aux: 6|0|2
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 1
+-----lista
+0|5|3
+6|0|2
+1|4|3
+origem: 1|5|2
+aux: 1|4|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 1|4|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+0|5|3
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 1
+-----lista
+0|5|3
+origem: 1|4|3
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 4
+-----lista
+0|5|3
+5|0|3
+origem: 1|4|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+4|4|0
+origem: 1|4|3
+aux: 4|4|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|4|0
+-----lista
+4|4|0
+lista dest:
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 1
+-----lista
+0|5|3
+5|0|3
+4|4|0
+1|5|2
+origem: 1|4|3
+aux: 1|5|2
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 2
+-----lista
+0|5|3
+6|0|2
+1|4|3
+3|5|0
+origem: 1|5|2
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 1
+-----lista
+1|5|2
+5|0|3
+origem: 6|0|2
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 2
+-----lista
+1|5|2
+5|0|3
+8|0|0
+origem: 6|0|2
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 2
+-----lista
+1|5|2
+5|0|3
+8|0|0
+6|2|0
+origem: 6|0|2
+aux: 6|2|0
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+5|0|3
+6|2|0
+3|5|0
+origem: 3|2|3
+aux: 3|5|0
+
+voltou!
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+7|0|1
+origem: 2|5|1
+aux: 7|0|1
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 7|0|1
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+2|5|1
+origem: 7|0|1
+aux: 2|5|1
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 2
+-----lista
+2|5|1
+5|0|3
+origem: 7|0|1
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 1
+-----lista
+2|5|1
+5|0|3
+8|0|0
+origem: 7|0|1
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 1
+-----lista
+2|5|1
+5|0|3
+8|0|0
+7|1|0
+origem: 7|0|1
+aux: 7|1|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 7|1|0
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 4
+-----lista
+3|5|0
+origem: 7|1|0
+aux: 3|5|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 3|5|0
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+3|5|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+0|5|3
+origem: 3|5|0
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+3|5|0
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+8|0|0
+origem: 3|5|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 3
+-----lista
+0|5|3
+8|0|0
+3|2|3
+origem: 3|5|0
+aux: 3|2|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 3|2|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+3|5|0
+3|2|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 3
+-----lista
+0|5|3
+origem: 3|2|3
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+3|5|0
+3|2|3
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 2
+-----lista
+0|5|3
+5|0|3
+origem: 3|2|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+6|2|0
+origem: 3|2|3
+aux: 6|2|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 6|2|0
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+3|5|0
+3|2|3
+6|2|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 3
+-----lista
+3|5|0
+origem: 6|2|0
+aux: 3|5|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+3|2|3
+origem: 6|2|0
+aux: 3|2|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 2
+-----lista
+3|5|0
+3|2|3
+8|0|0
+origem: 6|2|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 2
+-----lista
+3|5|0
+3|2|3
+8|0|0
+6|0|2
+origem: 6|2|0
+aux: 6|0|2
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 6|0|2
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+1|5|2
+origem: 6|0|2
+aux: 1|5|2
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 1|5|2
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 1
+-----lista
+0|5|3
+origem: 1|5|2
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+6|0|2
+origem: 1|5|2
+aux: 6|0|2
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 1
+-----lista
+0|5|3
+6|0|2
+1|4|3
+origem: 1|5|2
+aux: 1|4|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 1|4|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 1
+-----lista
+0|5|3
+origem: 1|4|3
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 4
+-----lista
+0|5|3
+5|0|3
+origem: 1|4|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+4|4|0
+origem: 1|4|3
+aux: 4|4|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|4|0
+-----lista
+4|4|0
+lista dest:
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 1
+-----lista
+0|5|3
+5|0|3
+4|4|0
+1|5|2
+origem: 1|4|3
+aux: 1|5|2
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 2
+-----lista
+0|5|3
+6|0|2
+1|4|3
+3|5|0
+origem: 1|5|2
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 1
+-----lista
+1|5|2
+5|0|3
+origem: 6|0|2
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 2
+-----lista
+1|5|2
+5|0|3
+8|0|0
+origem: 6|0|2
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 2
+-----lista
+1|5|2
+5|0|3
+8|0|0
+6|2|0
+origem: 6|0|2
+aux: 6|2|0
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+5|0|3
+6|2|0
+3|5|0
+origem: 3|2|3
+aux: 3|5|0
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+4|1|3
+origem: 7|1|0
+aux: 4|1|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|1|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+4|1|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 4
+-----lista
+0|5|3
+origem: 4|1|3
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+4|1|3
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 3|5|0
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+4|1|3
+0|5|3
+3|5|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+0|5|3
+origem: 3|5|0
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+8|0|0
+origem: 3|5|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 3
+-----lista
+0|5|3
+8|0|0
+3|2|3
+origem: 3|5|0
+aux: 3|2|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 3|2|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+4|1|3
+0|5|3
+3|5|0
+3|2|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 3
+-----lista
+0|5|3
+origem: 3|2|3
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 2
+-----lista
+0|5|3
+5|0|3
+origem: 3|2|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+6|2|0
+origem: 3|2|3
+aux: 6|2|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 6|2|0
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+4|1|3
+0|5|3
+3|5|0
+3|2|3
+6|2|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 3
+-----lista
+3|5|0
+origem: 6|2|0
+aux: 3|5|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+3|2|3
+origem: 6|2|0
+aux: 3|2|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 2
+-----lista
+3|5|0
+3|2|3
+8|0|0
+origem: 6|2|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 2
+-----lista
+3|5|0
+3|2|3
+8|0|0
+6|0|2
+origem: 6|2|0
+aux: 6|0|2
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 6|0|2
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+4|1|3
+0|5|3
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+1|5|2
+origem: 6|0|2
+aux: 1|5|2
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 1|5|2
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+4|1|3
+0|5|3
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 1
+-----lista
+0|5|3
+origem: 1|5|2
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+6|0|2
+origem: 1|5|2
+aux: 6|0|2
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 1
+-----lista
+0|5|3
+6|0|2
+1|4|3
+origem: 1|5|2
+aux: 1|4|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 1|4|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+7|0|1
+7|1|0
+4|1|3
+0|5|3
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 1
+-----lista
+0|5|3
+origem: 1|4|3
+aux: 0|5|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 4
+-----lista
+0|5|3
+5|0|3
+origem: 1|4|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+4|4|0
+origem: 1|4|3
+aux: 4|4|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|4|0
+-----lista
+4|4|0
+lista dest:
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 1
+-----lista
+0|5|3
+5|0|3
+4|4|0
+1|5|2
+origem: 1|4|3
+aux: 1|5|2
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 2
+-----lista
+0|5|3
+6|0|2
+1|4|3
+3|5|0
+origem: 1|5|2
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 1
+-----lista
+1|5|2
+5|0|3
+origem: 6|0|2
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 2
+-----lista
+1|5|2
+5|0|3
+8|0|0
+origem: 6|0|2
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 2
+-----lista
+1|5|2
+5|0|3
+8|0|0
+6|2|0
+origem: 6|0|2
+aux: 6|2|0
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+5|0|3
+6|2|0
+3|5|0
+origem: 3|2|3
+aux: 3|5|0
+
+voltou!
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 1
+-----lista
+0|5|3
+5|0|3
+origem: 4|1|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+7|1|0
+origem: 4|1|3
+aux: 7|1|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+5|0|3
+7|1|0
+4|4|0
+origem: 4|1|3
+aux: 4|4|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|4|0
+-----lista
+4|4|0
+lista dest:
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 1
+-----lista
+3|5|0
+4|1|3
+8|0|0
+origem: 7|1|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 1
+-----lista
+3|5|0
+4|1|3
+8|0|0
+7|0|1
+origem: 7|1|0
+aux: 7|0|1
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 2
+-----lista
+0|5|3
+7|0|1
+2|3|3
+origem: 2|5|1
+aux: 2|3|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 1
+-----lista
+0|5|3
+7|0|1
+2|3|3
+3|5|0
+origem: 2|5|1
+aux: 3|5|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 3|5|0
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+3|5|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+0|5|3
+origem: 3|5|0
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+3|5|0
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+8|0|0
+origem: 3|5|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 3
+-----lista
+0|5|3
+8|0|0
+3|2|3
+origem: 3|5|0
+aux: 3|2|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 3|2|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+3|5|0
+3|2|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 3
+-----lista
+0|5|3
+origem: 3|2|3
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+3|5|0
+3|2|3
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 2
+-----lista
+0|5|3
+5|0|3
+origem: 3|2|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+6|2|0
+origem: 3|2|3
+aux: 6|2|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 6|2|0
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+3|5|0
+3|2|3
+6|2|0
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 3
+-----lista
+3|5|0
+origem: 6|2|0
+aux: 3|5|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 3
+-----lista
+3|5|0
+3|2|3
+origem: 6|2|0
+aux: 3|2|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 2
+-----lista
+3|5|0
+3|2|3
+8|0|0
+origem: 6|2|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 2
+-----lista
+3|5|0
+3|2|3
+8|0|0
+6|0|2
+origem: 6|2|0
+aux: 6|0|2
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 6|0|2
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 5
+-----lista
+1|5|2
+origem: 6|0|2
+aux: 1|5|2
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 1|5|2
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 1
+-----lista
+0|5|3
+origem: 1|5|2
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+0|5|3
+6|0|2
+origem: 1|5|2
+aux: 6|0|2
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 1
+-----lista
+0|5|3
+6|0|2
+1|4|3
+origem: 1|5|2
+aux: 1|4|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 1|4|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=1
+t = 1
+-----lista
+0|5|3
+origem: 1|4|3
+aux: 0|5|3
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 0|5|3
+-----lista
+8|0|0
+5|0|3
+5|3|0
+2|3|3
+2|5|1
+3|5|0
+3|2|3
+6|2|0
+6|0|2
+1|5|2
+1|4|3
+0|5|3
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 5
+-----lista
+5|0|3
+origem: 0|5|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+5|0|3
+3|5|0
+origem: 0|5|3
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 4
+-----lista
+0|5|3
+5|0|3
+origem: 1|4|3
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 3
+-----lista
+0|5|3
+5|0|3
+4|4|0
+origem: 1|4|3
+aux: 4|4|0
+
+aux  ainda não havia sido visidtado
+entrou no potesDeVinhos origem valendo = 4|4|0
+-----lista
+4|4|0
+lista dest:
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 1
+-----lista
+0|5|3
+5|0|3
+4|4|0
+1|5|2
+origem: 1|4|3
+aux: 1|5|2
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 2
+-----lista
+0|5|3
+6|0|2
+1|4|3
+3|5|0
+origem: 1|5|2
+aux: 3|5|0
+
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=0 j=2
+t = 1
+-----lista
+1|5|2
+5|0|3
+origem: 6|0|2
+aux: 5|0|3
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=0
+t = 2
+-----lista
+1|5|2
+5|0|3
+8|0|0
+origem: 6|0|2
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 2
+-----lista
+1|5|2
+5|0|3
+8|0|0
+6|2|0
+origem: 6|0|2
+aux: 6|2|0
+
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=2 j=1
+t = 3
+-----lista
+0|5|3
+5|0|3
+6|2|0
+3|5|0
+origem: 3|2|3
+aux: 3|5|0
+
+voltou!
+voltou!
+voltou!
+voltou!
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=0
+t = 3
+-----lista
+3|5|0
+2|3|3
+8|0|0
+origem: 5|3|0
+aux: 8|0|0
+
+entrou no if (diferent, não vazio e não cheio)
+entrou no move() i=1 j=2
+t = 3
+-----lista
+3|5|0
+2|3|3
+8|0|0
+5|0|3
+origem: 5|3|0
+aux: 5|0|3
+
+voltou!
+voltou!
