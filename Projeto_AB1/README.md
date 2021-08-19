@@ -1,0 +1,3 @@
+## Problema dos potes de vinho
+
+Considere que temos três potes com capacidades de 8, 5 e 3 litros, respectivamente, os quais não possuem qualquer marcação. O maior deles esta completamente cheio enquanto que os outros dois estão vazios. Estamos interessados em dividir o vinho em duas porções iguais de 4 litros, tarefa  esta que pode ser realizada por sucessivos movimentos de derramar o vinho de um pote em outro pote sem deixar transbordar . Qual o menor número de movimentações do vinho de um pote à outro necessários para completar a divisão?
