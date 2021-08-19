@@ -113,6 +113,7 @@ noArvore *move(noArvore *origem, int i, int j)
     int cap_j = origem->p[j].cap;
     int qtd_j = origem->p[j].qtd;
     int t;
+
     if (qtd_i < (cap_j - qtd_j))
     {
         t = qtd_i;
@@ -123,37 +124,36 @@ noArvore *move(noArvore *origem, int i, int j)
     }
 
     noArvore *aux = criaNoArvore();
+
     preencherPotes(aux, origem->p[0].qtd, origem->p[1].qtd, origem->p[2].qtd);
-    /* aux->p[0].qtd = origem->p[0].qtd;
-    aux->p[1].qtd = origem->p[1].qtd;
-    aux->p[2].qtd = origem->p[2].qtd; */
+
     aux->p[i].qtd = origem->p[i].qtd - t;
     aux->p[j].qtd = origem->p[j].qtd + t;
     aux->pai = origem;
     aux->nivel = origem->nivel + 1;
-    //printf("lista de filhos de origem:");
-    //origem->filhos =
+
     insereNaLista(&origem->filhos, aux);
 
     return aux;
 }
 
-void tamMenorCaminho(noArvore *origem, noArvore *destino, noLista **visitados, noLista **dest)
+void tamMenorCaminho(noArvore *origem, noArvore *destino, noLista **trajeto)
 {
     if (iguais(origem->p, destino->p))
     {
+
         int tam = origem->nivel;
 
         if (tam < menor)
         {
+            //imprimeLista(&trajeto);
             menor = tam;
-            return;
         }
 
-        return tam;
+        return;
     }
 
-    insereNaLista(&visitados, origem);
+    insereNaLista(&trajeto, origem);
 
     for (int i = 0; i < 3; i++)
     {
@@ -171,17 +171,17 @@ void tamMenorCaminho(noArvore *origem, noArvore *destino, noLista **visitados, n
             {
                 noArvore *aux = move(origem, i, j);
 
-                if (!listaContem(&visitados, aux))
+                if (!listaContem(&trajeto, aux))
                 {
 
-                    tamMenorCaminho(aux, destino, &visitados, &dest);
+                    tamMenorCaminho(aux, destino, &trajeto);
                 }
             }
         }
     }
 }
 
-void caminho(noArvore *origem, noArvore *destino, noLista **visitados, noLista **dest)
+void caminho(noArvore *origem, noArvore *destino, noLista **trajeto)
 {
 
     if (iguais(origem->p, destino->p))
@@ -189,17 +189,17 @@ void caminho(noArvore *origem, noArvore *destino, noLista **visitados, noLista *
 
         if (origem->nivel == menor)
         {
-            printf("\nO menor caminho possui %d passos:\n\n", menor);
+            printf("\nA menor sequencia de movimentos entre o estado 8|0|0 e o 4|4|0 possui %d passos:\n\n", menor);
 
-            insereNaLista(&visitados, origem);
+            insereNaLista(&trajeto, origem);
 
-            imprimeLista(&visitados);
+            imprimeLista(&trajeto);
 
             return;
         }
     }
 
-    insereNaLista(&visitados, origem);
+    insereNaLista(&trajeto, origem);
 
     for (int i = 0; i < 3; i++)
     {
@@ -217,10 +217,10 @@ void caminho(noArvore *origem, noArvore *destino, noLista **visitados, noLista *
 
                 noArvore *aux = move(origem, i, j);
 
-                if (!listaContem(&visitados, aux))
+                if (!listaContem(&trajeto, aux))
                 {
 
-                    caminho(aux, destino, &visitados, &dest);
+                    caminho(aux, destino, &trajeto);
                 }
             }
         }
@@ -239,11 +239,9 @@ int main()
 
     preencherPotes(destino, 4, 4, 0);
 
-    noLista *visitados = NULL;
+    noLista *trajeto = NULL;
 
-    noLista *dest = NULL;
+    tamMenorCaminho(origem, destino, &trajeto);
 
-    tamMenorCaminho(origem, destino, &visitados, &dest);
-
-    caminho(origem, destino, &visitados, &dest);
+    caminho(origem, destino, &trajeto);
 }
