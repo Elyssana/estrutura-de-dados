@@ -1,3 +1,13 @@
+/*Linguagem utilizada: C;
+
+Aluna: Elyssana Maria da Silva Oliveira;
+
+Exercises: 6.2 Write an algorithm to determine if two binary trees are identical when the
+ordering of the subtrees for a node is ignored. For example, if a tree has root
+node with value R, left child with value A and right child with value B, this
+would be considered identical to another tree with root node value R, left
+child value B, and right child value A. */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -5,12 +15,12 @@
 
 typedef struct no
 {
-    int item;
+    char item;
     struct no *esq;
     struct no *dir;
 } no;
 
-no *criaNo(int item)
+no *criaNo(char item)
 {
     no *noArvore = (no *)malloc(sizeof(no));
     noArvore->item = item;
@@ -21,7 +31,7 @@ no *criaNo(int item)
 }
 
 /* verifica se duas árvores são identicas */
-bool arvoresIdenticas(struct no *arv1, struct no *arv2)
+bool arvoresIdenticas(no *arv1, no *arv2)
 {
     /*se as duas são vazias*/
     if (arv1 == NULL && arv2 == NULL)
@@ -37,7 +47,7 @@ bool arvoresIdenticas(struct no *arv1, struct no *arv2)
     return false;
 }
 
-no *insere(no *arv, int item)
+no *insere(no *arv, char item)
 {
     if (arv == NULL)
     {
@@ -67,32 +77,57 @@ no *montarAvore(no *arv, char aux[])
     return arv;
 }
 
-//AB/D//CEG///FH//I//
+void imprimir(no *tree)
+{
+    if (tree == NULL)
+    {
+        printf("()");
+    }
+    else
+    {
+        printf("%c", tree->item);
+        printf("(");
+        imprimir(tree->esq);
+        imprimir(tree->dir);
+        printf(")");
+    }
+}
+
 int main()
 {
+    printf("OBS.: As árvores são inseridas de forma estática no código.\n\n");
 
-    //char av1[50], av2[50];
-    /*  scanf("%s", &av1);
-    scanf("%s", &av2); */
+    /*//Caso de teste 1:
 
-    no *arv1 = criaNo(1);
-    no *arv2 = criaNo(1);
-    arv1->esq = criaNo(2);
-    arv1->dir = criaNo(3);
-    arv1->esq->esq = criaNo(4);
-    arv1->esq->dir = criaNo(5);
+    no *arv1 = criaNo('1');
+    no *arv2 = criaNo('1');
+    arv1->esq = criaNo('2');
+    arv1->esq->esq = criaNo('3');
+    arv2->dir = criaNo('2');
+    arv2->dir->dir = criaNo('3');*/
 
-    arv2->esq = criaNo(2);
-    arv2->dir = criaNo(3);
-    arv2->esq->esq = criaNo(4);
-    arv2->esq->dir = criaNo(5);
-    arv2->dir->esq = criaNo(6);
+    //Caso de teste 2:
+    no *arv1 = criaNo('A');
+    no *arv2 = criaNo('A');
+    arv1->esq = criaNo('B');
+    arv1->dir = criaNo('C');
+    arv1->esq->esq = criaNo('D');
+    arv1->esq->dir = criaNo('E');
+    arv2->esq = criaNo('C');
+    arv2->dir = criaNo('B');
+    arv2->dir->esq = criaNo('E');
+    arv2->dir->dir = criaNo('D');
 
+    printf("Arvores(pré-ordem):\n\n1- ");
+    imprimir(arv1);
+    printf("\n2- ");
+    imprimir(arv2);
+
+    printf("\n\nIdenticas? ");
     if (arvoresIdenticas(arv1, arv2))
-        printf("São identicas!");
+        printf("SIM!");
     else
-        printf("Não são identicas!");
+        printf("NÃO!");
 
-    //getchar();
     return;
 }
