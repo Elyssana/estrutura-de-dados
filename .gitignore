@@ -5,3 +5,4 @@
 *.pdf
 # Para todos os arquivos nomeados teste
 teste.*
+*.out
