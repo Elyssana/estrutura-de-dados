@@ -6,3 +6,4 @@
 # Para todos os arquivos nomeados teste
 teste.*
 *.out
+.vscode/settings.json
